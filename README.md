@@ -9,9 +9,13 @@ In LDA, a document may contain several different topics, each with their own rel
 See http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
 
 ## Usage
-1) run t.js node file 
-=> Install all required node libraries if already not installed
-=> (port 8081 is used, you may use different one)
+1) run t.js node file.
+Install all required node libraries if already not installed
+(port 8081 is used, you may use different one)
+Give Command like:
+```bash
+$ node t.js
+```
 2) run t.html on browser like firefox
 3) Get some hint to search. Hit SEARCH HINT button.
 4) Then search using different keywords. Give one word to search for.
