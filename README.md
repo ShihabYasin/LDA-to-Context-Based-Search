@@ -21,7 +21,7 @@ $ node t.js
 4) Then search using different keywords. Give one word to search for.
 5) Based on your search key you will see different file listing according to 
 their relevance with that search key in descending order.
-6) You may try with adding different text files containing different articles
+6) You may try with adding different text files(articles) containing different topics.
 in DOCUMENTstorage folder.
 
 ## Output
