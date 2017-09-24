@@ -1,0 +1,15 @@
+Tizen vs Android: What’s the difference?
+
+Now we have the techy bit out of the way let’s take a look at our original question and discover the similarities and differences between Android and Tizen.
+
+    Start-up - Tizen is lightweight and offers a faster start-up compared to Android.
+    Smoother scrolling - Tizen offers improved scrolling and rendering performance for web browsing.
+    Notification bar - Just like devices running Samsung’s TouchWiz UI there will be a swipe down notification bar on Tizen devices.
+    3D - Tizen will offer 3D window effects with support for apps and games that require advanced 3D graphics.
+    Multi-tasking and multi-touch - Multi-taking and multi-touch gestures are supported just like on Android devices.
+    Dynamic boxes - Tizen’s dynamic box icons can be resized to show more or less information.
+    64-bit processors - Tizen version 3 will support 64-bit processors, which is something that Google is working on for its next Android update.
+
+An initial Samsung Mobile trial of the Tizen OS on a smartphone received comments that there was nothing different from Android and iOS. 
+
+We could suggest that this was a negative piece of news but instead we should think of this as a positive step that confirms that the base model is running successfully and on a par with Android and iOS. 

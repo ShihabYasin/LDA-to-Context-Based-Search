@@ -1,0 +1,21 @@
+Tizen has been in development for years. We
+
+saw some phones running it at Mobile World Congress in Barcelona in
+
+February, where Samung also announced the Tizen-powered Samsung Gear 2 and Gear 2 Neo. Finally Samsung has launched the world’s first Tizen OS smartphone in Russia —  the Samsung Z.
+
+Up
+
+until now Samsung has been using Google’s Android OS to run its range
+
+of Galaxy smartphones and tablets. However, the Korean manufacturer has
+
+confirmed its intent to go it alone, offering an alternative to Google’s
+
+mobile OS, iOS and Windows Phone.
+
+So how does Tizen differ from Android? Here’s six things we know so far about the operating system that joins Firefox OS, Jolla Sailfish and Ubuntu Touch in the bid to shake things up.
+
+We were quite impressed by Tizen. If you want an in-depth view you can read our preview and first impressions of Tizen, for a quick overview read on.
+
+Read more at http://www.trustedreviews.com/opinion/samsung-tizen-os-features-2915424#5AksxS9zC6uIGrsJ.99

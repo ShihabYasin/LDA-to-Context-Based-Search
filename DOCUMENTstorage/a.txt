@@ -1,0 +1,6 @@
+Android OS is a Linux-based platform for mobile phones. Android was released under the Apache v2 open source license.
+
+Android was developed by Google and the Open Handset Alliance (OHA), a coalition of hardware, software and telecommunications companies. More than 30 companies were involved in the OHA, including Qualcomm, Broadcom, HTC, Intel, Samsung, Motorola, Sprint, Texas Instruments and Japanese wireless carriers KDDI and NTT DoCoMo.
+Android began its life as a Palo Alto-based startup company, founded in 2003. That company was subsequently acquired by Google in 2005. The Android platform includes an operating system based upon Linux, a GUI, a Web browser and end user applications that can be downloaded. Although the initial demonstrations of Android featured a generic QWERTY smartphone and large VGA screen, the operating system was written to run on relatively inexpensive handsets with conventional numeric keypads. 
+
+Android runs on both of the most widely deployed cellular standards.

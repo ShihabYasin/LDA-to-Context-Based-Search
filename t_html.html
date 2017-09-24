@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<style>
+    table,
+    td {
+        border: 1px solid black;
+    }
+
+    #my {
+        zoom: 100%;
+    }
+</style>
+
+<body class="my" style="background-color:powderblue;">
+    <div align="center" style="border:3px solid blue">
+        <h2>Context Matched Search</h2>
+        <p>Give 1 Query Word</p>
+        <input type="text" name="query" id="query_text" rows="3" cols="35" />
+        <button onclick="sendQuery()">SEARCH</button>
+        <br><br>
+        <table id="resultTable">
+            <tr>
+                <td>FILE</td>
+                <td>RELEVANCE VALUE</td>
+                <td>
+                    <progress value="100" max="100"></progress>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <a href=" https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/">Enable CORSE ADDONS on Browser, Else it will not work<a>
+        <br>
+        <button onclick="searchHint()">SEARCH HINT</button>
+        <br>
+        <p id="searchhint"></p>
+        <br>
+
+            
+
+    </div>        
+    <script>
+        function searchHint() {
+            $.ajax({
+                url: "http://127.0.0.1:8081/searchhint",
+                type: "POST",
+                data: "",
+                success: function (data, textStatus, jqXHR) {
+                    var para_searchhint = document.getElementById("searchhint");
+                    para_searchhint.innerHTML = data;
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+
+                }
+            });
+
+        }
+        function sendQuery() {
+            var querystring = document.getElementById('query_text');
+            var tt = querystring.value;
+            var myJSONObj = { "data": tt };
+
+            // var myJSONObj2;
+            // myJSONObj2.data= tt;
+
+            $.ajax({
+                url: "http://127.0.0.1:8081",
+                type: "POST",
+                data: myJSONObj,
+                success: function (data, textStatus, jqXHR) {
+
+                    var str = '';
+                    var table = document.getElementById("resultTable");
+                    table.innerHTML = "";
+
+                    var row = table.insertRow(0);
+                    var c1 = row.insertCell(0);
+                    var c2 = row.insertCell(1);
+
+
+                    c1.innerHTML = "FILE";
+                    c2.innerHTML = "RELEVANCE VALUE";
+                    for (var ind = 0; ind < data.length; ind++) {
+                        // str +=   data[ind]["name"]+'     Relevance =  '+data[ind]["probability"] +'<br>';
+                        row = table.insertRow(1);
+                        c1 = row.insertCell(0);
+                        c2 = row.insertCell(1);
+                        c1.innerHTML = data[ind]["name"];
+                        c2.innerHTML = '<td><progress value=' + data[ind]["probability"] * 100 + ' max="100"></progress>' + data[ind]["probability"] + '</td>';
+
+                    }
+                    // $("#demo").html(   str  );
+                    //alert(data);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+
+                }
+            });
+
+        }
+    </script>
+
+</body>
+
+</html>

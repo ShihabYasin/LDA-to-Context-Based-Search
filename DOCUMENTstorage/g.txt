@@ -1,0 +1,11 @@
+Anyone hoping that Samsung would use its Tizen operating system to shake up the mobile market has again had their dreams dashed, after the company emitted a for-n00bs phone running the OS.
+
+Samsung ended up tending Tizen after most of the other participants in the LiMo Foundation more or less lost interest in the idea of Linux-for-mobile-devices.
+
+The Korean company has occasionally made noises about Tizen as its flagship OS, using it in the high-profile launch of its Gear smartwatches. But Samsung's flagship smartphones have long persisted with Android, there's no sign of that changing and phones outsell wearables by a very considerable margin.
+
+Now we have news that the company's latest Tizen-powered effort, the Samsung Z4, is aimed at “ first-time smartphone users” likely to want what the company calls “a simplified user experience”.
+
+Which is not to say the Z4 is entirely off the pace: it can handle 4G LTE, VoLTE, and VoWiFi where carriers enable it. The unspecified CPU is a quad-core affair that hums along at 1.5 GHz. But both cameras are wimpy 5MP affairs and there's just 1GB of RAM.
+
+On the upside, the phone runs the Tizen 3.0, although that release's January 2017 release date and the dearth of handsets to have adopted it since tells you much of what you need to know about enthusiasm for the OS.
